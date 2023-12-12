@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Open+Sans&family=PT+Serif:ital@1&family=VT323&display=swap');
+
+
+body{
+  background-color: rgb(196, 245, 247);
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.4;
+  font-weight: 300;
+}
+.container{
+  margin-top: 5%;
+}
+.card{
+  width: 700px;
+  margin :0 auto;
+  height: 600px;
+  background-color: rgb(231, 242, 245);
+  padding: 20px;
+  border: solid 2px ;
+  border-radius: 10%;
+  box-shadow: 10px 10px rgb(171, 221, 233);
+}
+
+.profile-image img{
+  width: 200px;
+  border-radius: 30px;
+  border: solid 2px;
+}
+p{
+  font-size: 15px;
+}
+
+.list-inline > ul >li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+a{
+  text-decoration: none;
+  color:rgb(106, 146, 233);
+}
+a:hover{
+  color:rgb(9, 9, 141);
+  transition: .5s;
+
+}
+
+@media (max-width: 1060px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 700px;
+  }
+}
+
+@media (max-width: 850px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card {
+    width: 450px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 300px;
+  }
+}
